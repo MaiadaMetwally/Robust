@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    height: 100%;
+    background-color: #F3F3F3;
+}
+a, span, p, label{
+    font-size: 14px;
+}
+button, a{
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+     box-shadow: none; 
+    
+}
+.box-shadow-2 {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input.form-control{
+    height: 3.16667rem;
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+}
+.position-relative{
+    position: relative;
+}
+
+.line-on-side {
+    border-bottom: 1px solid #dadada;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    span{
+            background: #fff;
+            padding: 0 10px;
+    }
+} 
+.no-border{
+    border: 0 !important;
+}  
+.card {
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.875rem;
+    border-radius: 0;
+}
+.card-header, .card-footer{
+    background: #fff;        
+}
+.card-body{
+    button.btn-md{
+        font-size: 1.1rem;
+    }
+}

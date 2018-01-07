@@ -1,0 +1,51 @@
+  <div class="container">
+   <div class="row justify-content-center">
+     <div class="col-md-6 col-xs-10 box-shadow-2 p-0">
+<div class="card border-grey border-lighten-3 m-0">
+<div class="card-header no-border">
+    <div class="card-title text-center">
+        <div class="p-1"><img src="../../assets/img/robust-logo-dark.png" alt="branding logo"></div>
+    </div>
+    <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2"><span>Login with Robust</span></h6>
+</div>
+<div class="card-body">
+    <div class="card-block">
+        <form action="index.html" novalidate>
+            <fieldset class="form-group position-relative">
+                <input type="text" class="form-control form-control-lg input-lg" id="user-name" placeholder="Your Username" required>
+                <div class="form-control-position">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>                    
+                </div>
+            </fieldset>
+            <fieldset class="form-group position-relative">
+                <input type="password" class="form-control form-control-lg input-lg" id="user-password" placeholder="Enter Password" required>
+                <div class="form-control-position">
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                  </div>
+            </fieldset>
+            <fieldset class="form-group row px-3">
+                <div>
+                    <fieldset class="text-center float-sm-left">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me"> Remember Me</label>
+                    </fieldset>
+                </div>
+                <div class="text-center"><a [routerLink]="['/recover-password']" class="text-center float-sm-right card-link">Forgot Password?</a></div>
+            </fieldset>
+            <button type="submit" class="btn btn-primary btn-md btn-block">
+                <span class="lnr lnr-lock"></span>Login</button>
+        </form>
+    </div>
+</div>
+<div class="card-footer">
+    <div>
+        <p class="float-sm-left text-center m-0"><a [routerLink]="['/recover-password']" class="card-link">Recover password</a></p>
+        <p class="float-sm-right text-center m-0">New to Robust? <a [routerLink]="['/register']" class="card-link">Sign Up</a></p>
+    </div>
+</div>
+</div>
+     </div>
+
+   </div>
+  </div>
+

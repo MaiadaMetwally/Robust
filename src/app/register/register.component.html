@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-xs-10 box-shadow-2 p-0">
+ <div class="card border-grey border-lighten-3 m-0">
+ <div class="card-header no-border">
+     <div class="card-title text-center">
+         <div class="p-1"><img src="../../assets/img/robust-logo-dark.png" alt="branding logo"></div>
+     </div>
+     <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2"><span>Create Account</span></h6>
+ </div>
+ <div class="card-body">
+     <div class="card-block">
+         <form action="index.html" novalidate>
+             <fieldset class="form-group position-relative">
+                 <input type="text" class="form-control form-control-lg input-lg" id="user-name" placeholder="Your Username" required>
+                 <div class="form-control-position">
+                     <i class="fa fa-user-o" aria-hidden="true"></i>                    
+                 </div>
+             </fieldset>
+             <fieldset class="form-group position-relative mb-3">
+                <input type="text" class="form-control form-control-lg input-lg" id="email" placeholder="Your email address" required>
+                <div class="form-control-position">
+                   <i class="fa fa-envelope-o" aria-hidden="true"></i>                    
+                </div>
+            </fieldset>
+             <fieldset class="form-group position-relative">
+                 <input type="password" class="form-control form-control-lg input-lg" id="user-password" placeholder="Enter Password" required>
+                 <div class="form-control-position">
+                     <i class="fa fa-key" aria-hidden="true"></i>
+                   </div>
+             </fieldset>
+             <button type="submit" class="btn btn-primary btn-md btn-block">
+                 <span class="lnr lnr-lock"></span>Register</button>
+         </form>
+     </div>
+ </div>
+ <div class="card-footer">
+     <div>
+         <p class="text-center m-0">Already have an account? <a [routerLink]="['/login']" class="card-link">Login</a></p>
+     </div>
+ </div>
+ </div>
+      </div>
+ 
+    </div>
+   </div>
+ 
+ 
